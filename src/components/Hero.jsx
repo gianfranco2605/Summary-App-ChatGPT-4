@@ -1,13 +1,14 @@
-import { logo } from '../assets/';
+import { logo1 } from '../assets/';
 
 const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
         <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-            <img src={logo} alt='sumz-logo' className='w-28 object-contain' />
+            <img src={logo1} alt='sumz-logo' className='w-28 object-contain' />
+            <h1>by Navas</h1>
             <button
                 type='button'
-                onClick={() => window.open('https://github.com/gianfranco2605')}
+                onClick={() => window.open('https://github.com/gianfranco2605/Summary-App-ChatGPT-4')}
                 className='black_btn'
                >
                 GitHub
